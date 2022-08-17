@@ -1,0 +1,173 @@
+.Name_one {
+  margin-right: 55%;
+  font-size: 40px;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.Name_two {
+  margin-right: 50%;
+  font-size: 40px;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+font {
+  color: #16bffd;
+}
+.Typical {
+  margin-right: 45%;
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 40px;
+  color: #16bffd;
+}
+
+.Image {
+  margin-top: -20%;
+  margin-left: 40%;
+}
+
+h3 {
+  font-size: 40px;
+  margin-right: 20%;
+}
+
+p {
+  margin-right: 4%;
+}
+
+p1 {
+  margin-right: 27%;
+}
+
+p2 {
+  margin-right: 16%;
+}
+
+.Intro {
+  line-height: 30px;
+}
+
+h4 {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+h5 {
+  margin-top: -40px;
+  font-size: 18px;
+}
+
+span1 {
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  border-radius: 5px;
+  margin: 60px;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: #16bffd;
+}
+
+/*Button hover state*/
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  cursor: pointer;
+}
+
+/*keyframes*/
+@keyframes background-color {
+  100% {
+    background-color: blue;
+  }
+}
+
+ol {
+  list-style-type: none;
+}
+
+.cop {
+  margin-right: 23%;
+}
+
+.heading {
+  margin-top: 8%;
+  margin-right: 25%;
+  line-height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 40%;
+}
+
+.image_about {
+  margin-left: 80%;
+  margin-top: -30%;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.Container:hover {
+  cursor: pointer;
+}
+
+.Container > div {
+  width: 100px;
+  margin: 10px;
+  padding: 30px;
+  font-size: 2em;
+  border: 2px solid #16bffd;
+}
+
+.project-heading {
+  margin-top: 5%;
+}
+
+.project_container {
+  display: flex;
+  justify-content: center;
+}
+
+.project_container > div {
+  font-size: 2em;
+
+  border: 2px solid #16bffd;
+  margin: 12px;
+  padding: 15px;
+}
+
+/* for desktop responsive  */
+
+@media only screen and (max-width: 1550px) {
+  .image_about {
+    position: relative;
+    top: -120px;
+    right: 40px;
+  }
+
+  .heading {
+    position: realtive;
+    right: ;
+  }
+}
